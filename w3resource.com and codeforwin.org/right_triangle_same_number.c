@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-	
+
 	int i,j,number;
 	
-	printf("Enter the number: ");
+	printf("Enter your number: ");
 	scanf("%d",&number);
 	
 	
@@ -11,14 +11,13 @@ int main(){
 		
 		for(j=1; j<=i; j++){
 			
-			printf("%d",i);
+			printf("%d",j);
 		}
 		
 		printf("\n");
-		
 	}
-	
-	
-	
+
+
+
 	return 0;
 }
